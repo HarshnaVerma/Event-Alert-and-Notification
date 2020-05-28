@@ -1,0 +1,183 @@
+*{
+    box-sizing:border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    width:100%;
+    font-family: sans-serif;
+    /*background-color:lightblue;*/
+    background-image: url('loginbg2.jpg');
+    background-size: cover;
+}
+.header {
+    width: 100%;
+    background-color: whitesmoke;
+    margin-top: 0;
+    text-decoration: none;
+    font-size: 18px;
+}
+.bottomheader {
+    background-color: black;
+    width: 100%;
+    color: white;
+    height: 35px;
+    text-align: center;
+    }
+.bottomheader p {
+    margin: auto;
+    padding: 5px;
+    }
+.logo{
+    float: left;
+    width: 90px;
+    height: 90px;
+    border: 3px solid goldenrod;
+    margin-top:1%;
+    margin-left: 2%;
+    margin-bottom:1%;
+    border-radius: 50%;
+}
+.header h2{
+    float: none;
+    margin: 0;
+    padding-top: 10px;
+    color: black;
+    display: block;
+    text-align: center;
+}
+.header h4{
+    text-align: center;
+}
+#wrapper {
+    margin: 0 auto;
+    padding: 0px;
+    text-align: center;
+    width: 995px;
+}
+#loginform {
+    display: auto;
+    width: 400px;
+    margin: auto;
+    /*margin-left: 400px;
+    margin-right: 400px;*/
+    padding: 10px;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    background-color: black;
+    opacity: 0.6;
+}
+.table th {
+    margin: 15px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    color: lightskyblue;
+}
+.table td {
+    margin: auto;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    width: 230px;
+    height: 40px;
+    padding-left: 5px;
+    border: none;
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    left: calc(50% - 50px);
+}
+
+.loginbutton {
+    border: none;
+    padding: 5px;
+    margin: 8px 0;
+    width: 150px;
+    cursor: pointer;
+    background-color: lightskyblue;
+    color: black;
+    font-size: 15px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+    .loginbutton:hover {
+        cursor: pointer;
+        background-color: white;
+        color: black;
+    }
+
+
+.footer {
+    width: 100%;
+    bottom: 0;
+    padding: 20px;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+@media only screen and (min-width:700px) and (max-width:995px) {
+    #wrapper {
+        width: 100%;
+    }
+
+    #loginform {
+        width: 50%;
+        margin-left: 25%;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .table td {
+        width: 80%;
+    }
+    .loginbutton {
+        width: 80%;
+    }
+    }
+    @media only screen and (min-width:400px) and (max-width:699px) {
+        #wrapper {
+            width: 100%;
+        }
+
+        .loginform {
+            width: 60%;
+            margin-left: 20%;
+        }
+        .table td{
+            width:80%;
+        }
+        .loginbutton {
+            width: 80%;
+        }
+    }
+
+    @media only screen and (min-width:100px) and (max-width:399px) {
+        #wrapper {
+            width: 100%;
+        }
+
+        #loginform {
+            width: 90%;
+            margin-left: 5%;
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+        .table td {
+            width: 80%;
+        }
+        .loginbutton {
+            width: 80%;
+        }
+    }
+@media screen and (max-width: 500px) {
+    .header{
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
